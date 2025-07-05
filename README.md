@@ -1,5 +1,3 @@
-[![CI](https://github.com/alok92/incident-annotator/actions/workflows/ci.yml/badge.svg)](https://github.com/alok92/incident-annotator/.github/workflows/ci.yml)
-
 # 📍 Incident Annotator
 
 > A simple Python CLI to annotate Grafana dashboards or logs with incident metadata.
