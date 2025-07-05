@@ -24,7 +24,7 @@ def to_unix_ms(timestamp: str) -> int:
     return int(datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S").timestamp() * 1000)
 
 def generate_markdown(summary: str, start: str, end: str, services=None) -> str:
-    lines = [f"## Incident Report", f"**Start:** {start}", f"**End:** {end}", f"**Summary:** {summary}"]
+    lines = ["## Incident Report", f"**Start:** {start}", f"**End:** {end}", f"**Summary:** {summary}"]
     if services:
         lines.append(f"**Services Affected:** {', '.join(services)}")
     return "\n\n".join(lines)

@@ -1,4 +1,3 @@
-import json
 from incident_annotator.main import generate_markdown, generate_grafana_annotation
 
 def test_grafana_annotation_basic():
