@@ -26,7 +26,7 @@ jobs:
 
       - name: Lint with ruff
         run: |
-          ruff incident_annotator tests
+          ruff check incident_annotator tests
 
       - name: Test with pytest
         run: |
